@@ -1,28 +1,52 @@
 ﻿body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-
+.header
+{
+    background-color: #303030;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
 .title {
     margin: 0px;
     padding: 0px;
-    background: #303030;
     display: block;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
-
 .categories {
-    margin: 0px;
-    padding: 0px;
     display: block;
-    float: left;
 }
 .content {
-    margin: 0px 800px 0px 10px;
-    padding: 0px;
     display: block;
-    float: right;
+    padding-left: 20px;
     border-left: 2px solid black;
+}
+.body {
+    display: flex;
+}
+.item {
+    display: block;
+    border-bottom: 2px dotted #808080;
+}
+h3 {
+    margin: 10px 0 5px 0;
+}
+h4 {
+    margin: 5px 0;
+}
+.pager {
+    letter-spacing: 5px;
+    float: right;
+}.pager a {
+    text-decoration: none;
+}
+.selected {
+    color: #ffffff;
+    background-color: #606060;
 }
