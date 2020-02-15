@@ -15,7 +15,7 @@
     </header>
     <div class="container body">
         <div class="categories">
-            We will put something useful here later
+            @{Html.RenderAction("Menu", "Nav"); }
         </div>
         <div class="content">
             @RenderBody()

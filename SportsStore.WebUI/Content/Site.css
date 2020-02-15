@@ -19,9 +19,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
-.categories {
-    display: block;
-}
 .content {
     display: block;
     padding-left: 20px;
@@ -46,7 +43,29 @@ h4 {
 }.pager a {
     text-decoration: none;
 }
-.selected {
+.pager a .selected {
     color: #ffffff;
     background-color: #606060;
+}
+
+.categories {
+    font-family: bold 1px "Arial Narrow";
+    display: block;
+    text-decoration: none;
+    padding: 1px;
+    color: black;
+    border-bottom: 1px solid silver;
+}
+
+.categories a .selected {
+    background-color: #666;
+    color: white;
+}
+
+.categories:hover {
+    background-color: #ccc;
+}
+
+.categories a .selected:hover {
+    background-color: #666;
 }
