@@ -42,30 +42,27 @@ h4 {
     float: right;
 }.pager a {
     text-decoration: none;
-}
-.pager a .selected {
-    color: #ffffff;
-    background-color: #606060;
-}
-
-.categories {
-    font-family: bold 1px "Arial Narrow";
-    display: block;
-    text-decoration: none;
-    padding: 1px;
     color: black;
-    border-bottom: 1px solid silver;
+}
+    .pager a.selected {
+        color: white;
+        background-color: #606060;
+    }
+.categories{
+    margin: 0 10px 0 5px;
+}
+.categories a {
+    margin-bottom: 10px;
+    padding: 5px 20px 10px 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 1px solid #9a9a9a;
 }
 
-.categories a .selected {
-    background-color: #666;
+.categories a.selected {
     color: white;
-}
-
-.categories:hover {
-    background-color: #ccc;
-}
-
-.categories a .selected:hover {
-    background-color: #666;
+    background-color: #606060;
 }
