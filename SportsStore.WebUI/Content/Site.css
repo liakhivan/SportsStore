@@ -38,9 +38,9 @@ h4 {
     margin: 5px 0;
 }
 .pager {
-    letter-spacing: 5px;
     float: right;
 }.pager a {
+    margin-left: 5px;
     text-decoration: none;
     color: black;
 }
@@ -65,4 +65,39 @@ h4 {
 .categories a.selected {
     color: white;
     background-color: #606060;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+div.item form {
+    float: right;
+}
+
+div.item input {
+    color: White;
+    background-color: #333;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 1px;
+}   
+
+tfoot td {
+    border-top: 1px dotted gray;
+    font-weight: bold;
+}
+
+.actionButtons a, input.actionButtons {
+    font: 15px Arial;
+    color: White;
+    margin: 5px;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535;
+    border: 1px solid black;
 }
